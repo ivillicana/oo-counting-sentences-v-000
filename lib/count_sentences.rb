@@ -15,8 +15,8 @@ class String
   end
 
   def count_sentences
-        binding.pry
-    array = self.split(/[(\.+\s?)(\!+\s?)(\?+\s?)]/)
 
+    array = self.split(/[(\.+\s?)(\!+\s?)(\?+\s?)]/)
+        binding.pry
   end
 end
