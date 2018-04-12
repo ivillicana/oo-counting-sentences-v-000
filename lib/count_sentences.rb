@@ -16,7 +16,7 @@ class String
 
   def count_sentences
 
-    array = self.split(/[(\.+\s?)(\!+\s?)(\?+\s?)]/)
-        binding.pry
+    array = self.split(/[(\.+)(\!+)(\?+)]/).count
+
   end
 end
